@@ -16,6 +16,7 @@ class TestLogin:
     @pytest.mark.run(order=4)
     def test_login3(self):
         print("login3")
+        assert False
 
     @pytest.mark.run(order=2)
     def test_login2(self):
